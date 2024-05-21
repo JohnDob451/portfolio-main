@@ -917,7 +917,7 @@ img {
     content: "";
     width: 30%;
     height: 100%;
-    background-image: url("../images/me3.jpg");
+    background-image: url("../images/me2.jpg");
     background-size: cover;
     display: block;
     float: left;
@@ -925,8 +925,6 @@ img {
     margin-bottom: 2vw;
     background-position: bottom;
     filter: grayscale(70%);
-
-
   }
 
   .about-inner>div * {
