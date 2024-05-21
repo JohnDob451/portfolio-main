@@ -93,7 +93,7 @@ export default function Main() {
 
             <div className={classes.links}>
               <a
-                href="http://johndob451.github.io/portfolio/resume.pdf"
+                href="https://johndob451.github.io/portfolio-main/resume.pdf"
                 download
               >
                 Download Resume

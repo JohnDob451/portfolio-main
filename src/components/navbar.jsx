@@ -77,7 +77,7 @@ function NavBar() {
               <FontAwesomeIcon icon={faEnvelope} /> Contact
             </Nav.Link>
             <a
-              href="http://johndob451.github.io/portfolio/resume.pdf"
+              href="https://johndob451.github.io/portfolio-main/resume.pdf"
               className={`${classes["nav-link"]}`}
             >
               Resume

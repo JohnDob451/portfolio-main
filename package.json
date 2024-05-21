@@ -1,5 +1,5 @@
 {
-  "homepage": "https://danban451.github.io/portfolio",
+  "homepage": "https://johndob451.github.io/portfolio-main",
   "name": "my-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -15,7 +15,6 @@
     "bootstrap": "^5.3.0",
     "browser-router": "^0.2.0",
     "fortawesome": "^0.0.1-security",
-    "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.4",
     "react-bootstrap-navbar": "^1.1.0",
@@ -28,8 +27,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "predeploy": "npm run build",        
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -51,5 +50,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
