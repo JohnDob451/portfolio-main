@@ -10,8 +10,8 @@ import {
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 
-import { default as me } from "../images/john-main.png";
-import { default as me2 } from "../images/me3.jpg";
+import { default as me } from "../images/-3840923711554336560.png";
+import { default as me2 } from "../images/-3598842943458272451.jpg";
 
 import { default as portfolio_image } from "../images/portfolio_image.jpg";
 import { default as portfolio_image_2 } from "../images/portfolio_image_2.jpeg";
@@ -265,7 +265,7 @@ export default function Main() {
           <div>
             <h1>About Me </h1>
             <p>
-            I'm John V. Dobrovolskiy, a dedicated and passionate professional with a strong background in aerospace and mechanical engineering. Known for my diligence and exceptional work ethic, I have extensive experience in integrating spacecraft, performing detailed aircraft maintenance, and leading emergency response teams. I take pride in my commitment to quality and precision, and my technical troubleshooting skills are backed by several key certifications. Whether I'm working on intricate spacecraft components or managing complex mechanical systems, I approach each task with unwavering dedication and a drive for excellence. My goal is to bring my expertise, passion, and hard work to every project, ensuring the highest standards of performance and reliability.
+              I'm John Viktorovich Dobrovolskiy, a dedicated and passionate professional with a strong background in aerospace and aviation. Known for my diligence and exceptional work ethic, I have extensive experience in integrating spacecraft, performing detailed aircraft maintenance, and leading emergency response teams. I take pride in my commitment to quality and precision, and my technical troubleshooting skills are backed by several key certifications. Whether I'm working on intricate spacecraft components or managing complex mechanical systems, I approach each task with unwavering dedication and a drive for excellence. My goal is to bring my expertise, passion, and hard work to every project, ensuring the highest standards of performance and reliability.
             </p>
           </div>
         </div>
@@ -273,10 +273,7 @@ export default function Main() {
       <div id="contact" className={classes.contact}>
         <div className={classes.title}>
           <span>Contact me</span>
-        </div>
-        <span>
-          I'm always open for new challenges!
-        </span>
+        </div>        
         <div className={classes["contact-methods"]}>
           <FontAwesomeIcon icon={faPhone} />
           <span>(907) 687-6619</span>
