@@ -79,7 +79,7 @@ export default function Footer({ quoteHandler }) {
 
       <div className="footer-copyright">
         <span>
-          Copyright © 2022 <span>Optimal Exterior</span>
+          Copyright © 2024 <span>Optimal Exterior</span>
         </span>
       </div>
     </div>

@@ -58,7 +58,7 @@ a.nav-link {
 .social {  
   margin-left: auto;
   width: 150px;
-  justify-content: space-between;
+  justify-content: right;
   flex-direction: row;
   padding: 0 12px;
   padding-right: 0px;

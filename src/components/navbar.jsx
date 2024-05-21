@@ -56,7 +56,7 @@ function NavBar() {
                 activeLink === "projects" ? classes.active : ""
               }`}
             >
-              <FontAwesomeIcon icon={faProjectDiagram} /> Projects
+              <FontAwesomeIcon icon={faProjectDiagram} /> Experience
             </Nav.Link>
             <Nav.Link
               href="#about"
@@ -77,35 +77,19 @@ function NavBar() {
               <FontAwesomeIcon icon={faEnvelope} /> Contact
             </Nav.Link>
             <a
-              href="http://danban451.github.io/portfolio/resume.pdf"
+              href="http://johndob451.github.io/portfolio/resume.pdf"
               className={`${classes["nav-link"]}`}
             >
               Resume
             </a>
           </Nav>
           <Nav className={classes.social}>
-            <Nav.Link href="https://www.instagram.com/sapphirebuyer451/">
+            <Nav.Link href="https://www.instagram.com/johndobrovolskiy/">
               <FontAwesomeIcon
                 className={`${classes.linkSocial}`}
                 size="2x"
                 color="white"
                 icon={faInstagram}
-              />
-            </Nav.Link>
-            <Nav.Link href="https://www.facebook.com/profile.php?id=100072146749775">
-              <FontAwesomeIcon
-                className={`${classes.linkSocial}`}
-                size="2x"
-                color="white"
-                icon={faFacebook}
-              />
-            </Nav.Link>
-            <Nav.Link href="https://www.linkedin.com/in/daniel-dobrovolskiy-a37721172/">
-              <FontAwesomeIcon
-                className={`${classes.linkSocial}`}
-                size="2x"
-                color="white"
-                icon={faLinkedin}
               />
             </Nav.Link>
           </Nav>

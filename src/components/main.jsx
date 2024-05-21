@@ -10,29 +10,30 @@ import {
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 
-import { default as me } from "../images/me4.jpeg";
+import { default as me } from "../images/john-main.png";
 import { default as me2 } from "../images/me3.jpg";
 
 import { default as portfolio_image } from "../images/portfolio_image.jpg";
 import { default as portfolio_image_2 } from "../images/portfolio_image_2.jpeg";
 
-import { default as redux_icon } from "../images/redux.png";
-import { default as react_native_icon } from "../images/react-native-icon.png";
+import { default as mechanic_icon } from "../images/icons8-gear-96.png";
+import { default as troubleshoot_icon } from "../images/icons8-magnifying-glass-128.png";
+import { default as integration_icon } from "../images/icons8-spacecraft-96.png";
 
-import { default as spring_icon } from "../images/leaf.png";
-import { default as jules_icon } from "../images/jules.png";
-import { default as scrum_icon } from "../images/scrum.png";
+import { default as quality_icon } from "../images/icons8-graph-96.png";
+import { default as emergency_icon } from "../images/icons8-fire-96.png";
+import { default as fabrication_icon } from "../images/icons8-tool-96.png";
 
 import { default as python_icon } from "../images/python-icon.png";
-import { default as vs_code_icon } from "../images/vs-code.png";
-import { default as github_icon } from "../images/github-icon.png";
-import { default as xcode_icon } from "../images/xcode-icon.png";
+import { default as aircraft_icon } from "../images/icons8-aircraft-96.png";
+import { default as tool_icon } from "../images/icons8-toolbox-128.png";
+import { default as parachute_icon } from "../images/icons8-parachute-64.png";
 
-import { default as fantum_gif } from "../images/fantum.gif";
-import { default as unitedhomes_gif } from "../images/unitedhomes.gif";
-import { default as rcheban_gif } from "../images/rcheban.gif";
-import { default as skycity_gif } from "../images/skycity.gif";
-import { default as optimal_exterior_gif } from "../images/optimal-exterior.gif";
+import { default as fantum_gif } from "../images/7f74ab81505303.5d02aa15a7ab5.gif";
+import { default as unitedhomes_gif } from "../images/674d4480582987.5de30de3b1ced.gif";
+import { default as rcheban_gif } from "../images/Gen-2 891643170, Default_Technician_o, M 5 (1).gif";
+import { default as skycity_gif } from "../images/Gen-2 3724928020, Default_Modern_minim, M 5 (1).gif";
+import { default as optimal_exterior_gif } from "../images/d9e42d104376667.5f85fe4897bae.gif";
 import { default as tetris_gif } from "../images/tetris.gif";
 import { default as asteroids_gif } from "../images/asteroids.gif";
 import { default as visualizer_gif } from "../images/visualizer.gif";
@@ -79,20 +80,20 @@ export default function Main() {
       <div className={`${classes.header}`}>
         <div className={classes["header-content"]}>
           <span className={classes.name}>
-            DANIEL <br />
+            JOHN <br />
             DOBROVOLS
           </span>
           <span className={classes["name-sub"]}>KIY</span>
 
           <div className={classes.descWrapper}>
             <div className={classes.desc}>
-              <h4>Developer</h4>
-              <h4>Javascript & Java</h4>
+              <h4>Technician</h4>
+              <h4>Integration - SpaceX</h4>
             </div>
 
             <div className={classes.links}>
               <a
-                href="http://danban451.github.io/portfolio/resume.pdf"
+                href="http://johndob451.github.io/portfolio/resume.pdf"
                 download
               >
                 Download Resume
@@ -112,69 +113,65 @@ export default function Main() {
             <span>Skills</span>
           </div>
           <div className={classes.skill}>
-            <img src={react_native_icon} alt="" />
-            <span>REACT JS</span>
+            <img src={mechanic_icon} alt="" />
+            <span>Mechanical Expertise</span>
             <span>
-              Traverse the DOM and combine components into masterpeices
+              Proficient in diagnosing and repairing mechanical issues in various types of aircraft and vehicles.
             </span>
           </div>
           <div className={classes.skill}>
-            <img src={react_native_icon} alt="" />
-            <span>REACT NATIVE</span>
-            <span>Building apps on multiple platforms</span>
+            <img src={integration_icon} alt="" />
+            <span>Spacecraft Integration</span>
+            <span>Specialized in the detailed installation and integration of sensitive spacecraft hardware and components.</span>
           </div>
           <div className={classes.skill}>
-            <img src={redux_icon} alt="" />
-            <span>REDUX</span>
+            <img src={troubleshoot_icon} alt="" />
+            <span>Technical Troubleshooting</span>
             <span>
-              JavaScript library for managing and centralizing application state
+              Experienced in identifying, documenting, and resolving complex technical problems in high-stakes environments.
             </span>
           </div>
           <div className={classes.skill}>
-            <img src={spring_icon} alt="" />
-            <span>SPRING</span>
+            <img src={quality_icon} alt="" />
+            <span>Quality Assurance</span>
             <span>
-              Application framework and inversion of control container for the
-              Java platform
+              Skilled in conducting thorough inspections and ensuring adherence to quality standards and protocols.
             </span>
           </div>
           <div className={classes.skill}>
-            <img src={jules_icon} alt="" />
-            <span>JULES</span>
+            <img src={emergency_icon} alt="" />
+            <span>Emergency Response</span>
             <span>
-              Automate components related to building, testing, and deploying,
-              facilitating continuous integration and continuous delivery
+              Proven ability to lead and manage emergency response teams, ensuring safety and efficiency during critical operations.
             </span>
           </div>
           <div className={classes.skill}>
-            <img src={scrum_icon} alt="" />
-            <span>SCRUM & JIRA's</span>
+            <img src={fabrication_icon} alt="" />
+            <span>Fabrication and Modification</span>
             <span>
-              Proficient in utilizing the Scrum framework for effective project
-              management, with significant experience in its application in
-              software development
+              Expertise in fabricating and modifying structures, including roll cages and aircraft components, to meet specific needs and standards.
             </span>
           </div>
           <div className={`${classes.title} ${classes["programs-title"]}`}>
-            <span>Programs</span>
+            <span>Qualifications</span>
           </div>
           <div className={classes.program}>
-            <img src={vs_code_icon} alt="" />
-            <span>Visual Studio Code</span>
+            <img src={aircraft_icon} alt="" />
+            <span>Airframe & Powerplant</span>
           </div>
           <div className={classes.program}>
-            <img src={github_icon} alt="" />
-            <span>Github</span>
+            <img src={tool_icon} alt="" />
+            <span>Torque Buyoff</span>
           </div>
           <div className={classes.program}>
-            <img src={xcode_icon} alt="" />
-            <span>XCode</span>
+            <img src={parachute_icon} alt="" />
+            <span>Parachute Installation</span>
           </div>
         </div>
       </div>
       <div id="projects" className={classes.projects}>
         <div className={classes.title}>
-          <span>Projects</span>
+          <span>Experience</span>
         </div>
         <div className={classes["projects-inner"]}>
           <div
@@ -190,7 +187,7 @@ export default function Main() {
               }}
               className={classes["project-content"]}
             >
-              <h2>Fantum</h2>
+              <h2>Integration Technician</h2>
             </a>
           </div>
           <div
@@ -206,7 +203,7 @@ export default function Main() {
               }}
               className={classes["project-content"]}
             >
-              <h2>United Homes</h2>
+              <h2>Aircraft Technician</h2>
             </a>
           </div>
           <div
@@ -222,7 +219,7 @@ export default function Main() {
               }}
               className={classes["project-content"]}
             >
-              <h2>RCheban Towing</h2>
+              <h2>UTV Technician</h2>
             </a>
           </div>
           <div
@@ -238,7 +235,7 @@ export default function Main() {
               }}
               className={classes["project-content"]}
             >
-              <h2>SkyCity Trucking</h2>
+              <h2>Squad Boss</h2>
             </a>
           </div>
           <div
@@ -254,54 +251,9 @@ export default function Main() {
               }}
               className={classes["project-content"]}
             >
-              <h2>Optimal Exterior</h2>
+              <h2>Auto Mechanic</h2>
             </a>
-          </div>
-          <div
-            className={classes.project}
-            onMouseOver={(e) => handleProjectHover(e)}
-          >
-            <img src={tetris_gif} alt="" />
-            <a
-              href=""
-              onClick={(e) => {
-                e.preventDefault();
-                handleProjecteOpen(5);
-              }}
-              className={classes["project-content"]}
-            >
-              <h2>Tetris</h2>
-            </a>
-          </div>
-          <div
-            className={classes.project}
-            onMouseOver={(e) => handleProjectHover(e)}
-          >
-            <img src={asteroids_gif} alt="" />
-            <a
-              href=""
-              onClick={(e) => {
-                e.preventDefault();
-                handleProjecteOpen(6);
-              }}
-              className={classes["project-content"]}
-            >
-              <h2>Asteroids</h2>
-            </a>
-          </div>
-          <div className={classes.project}>
-            <img src={visualizer_gif} alt="" />
-            <a
-              href=""
-              onClick={(e) => {
-                e.preventDefault();
-                handleProjecteOpen(7);
-              }}
-              className={classes["project-content"]}
-            >
-              <h2>DijkstraVisualizer</h2>
-            </a>
-          </div>
+          </div>          
         </div>
       </div>
       <div id="about" className={classes.about}>
@@ -313,22 +265,7 @@ export default function Main() {
           <div>
             <h1>About Me </h1>
             <p>
-              I possess a strong passion for my work, and prioritize the
-              acquisition of education and knowledge above all other endeavors.
-              I embrace the sentiment expressed by Einstein that the cultivation
-              of a sharp and agile mind is an unceasing and enduring journey. In
-              all aspects of my life, I strive to imbue my endeavors with
-              meaning and purpose, eschewing the passive and lackadaisical
-              approach to existence. My pursuits are firmly rooted in a desire
-              to unveil the mysteries of the universe and unravel the
-              intricacies of reality. However, I am equally driven by a
-              deep-seated commitment to building my character and achieving
-              excellence in all that I do. I firmly believe that every
-              individual has the potential for greatness, given sufficient
-              effort and dedication. I hold that the pursuit of mastery, the
-              attainment of the highest level of proficiency in one's chosen
-              field, is the most rewarding and meaningful approach to one's work
-              and life.
+            I'm John V. Dobrovolskiy, a dedicated and passionate professional with a strong background in aerospace and mechanical engineering. Known for my diligence and exceptional work ethic, I have extensive experience in integrating spacecraft, performing detailed aircraft maintenance, and leading emergency response teams. I take pride in my commitment to quality and precision, and my technical troubleshooting skills are backed by several key certifications. Whether I'm working on intricate spacecraft components or managing complex mechanical systems, I approach each task with unwavering dedication and a drive for excellence. My goal is to bring my expertise, passion, and hard work to every project, ensuring the highest standards of performance and reliability.
             </p>
           </div>
         </div>
@@ -338,34 +275,28 @@ export default function Main() {
           <span>Contact me</span>
         </div>
         <span>
-          I'm always open to discuss your project and talk about new things.
+          I'm always open for new challenges!
         </span>
         <div className={classes["contact-methods"]}>
           <FontAwesomeIcon icon={faPhone} />
-          <span>(907) 687-7403</span>
+          <span>(907) 687-6619</span>
         </div>
         <div className={classes["contact-methods"]}>
           <FontAwesomeIcon icon={faEnvelope} />
-          <span>Danieldob200@gmail.com</span>
+          <span>John.Dobrovolskiy@spacex.com</span>
         </div>
         <span>Follow me</span>
-        <ul className={classes.socials}>
-          <a href="https://www.facebook.com/profile.php?id=100072146749775">
-            <FontAwesomeIcon size={"2x"} icon={faFacebook} />
-          </a>
-          <a href="https://www.instagram.com/sapphirebuyer451/">
+        <ul className={classes.socials}>          
+          <a href="https://www.instagram.com/johndobrovolskiy/">
             <FontAwesomeIcon size={"2x"} icon={faInstagram} />
-          </a>
-          <a href="https://www.linkedin.com/in/daniel-dobrovolskiy-a37721172/">
-            <FontAwesomeIcon size={"2x"} icon={faLinkedin} />
-          </a>
+          </a>          
         </ul>
       </div>
       <div className={classes.footer}>
         <a href="/portfolio/#home">
           <img src={scroll_up_icon} alt="" />
         </a>
-        <span>Copyright @ 2022. All Rights Reserved.</span>
+        <span>Copyright @ 2024. All Rights Reserved.</span>
       </div>
     </div>
   );
