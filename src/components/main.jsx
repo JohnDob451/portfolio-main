@@ -87,8 +87,8 @@ export default function Main() {
 
           <div className={classes.descWrapper}>
             <div className={classes.desc}>
-              <h4>Technician</h4>
-              <h4>Integration - SpaceX</h4>
+              <h4>Integration Technician</h4>
+              <h4>SpaceX</h4>
             </div>
 
             <div className={classes.links}>
@@ -161,7 +161,7 @@ export default function Main() {
           </div>
           <div className={classes.program}>
             <img src={tool_icon} alt="" />
-            <span>Torque Buyoff</span>
+            <span>Authorized Oversight</span>
           </div>
           <div className={classes.program}>
             <img src={parachute_icon} alt="" />
